@@ -1,0 +1,71 @@
+.cabecalho-cena-texto{
+    font-size: 0.5rem;
+    margin: 8px;
+}
+
+.cabecalho-cena{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.background-termminal{
+    display: flex;
+    flex-direction: column;
+    background-color: #09011a;
+    padding: 8px;
+}
+
+.cabecalho-msg-astronauta{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 0.5rem;
+}
+
+.texto-cosmonauta{
+    min-height: 290px;
+}
+
+.linha-texto{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.linha-texto p{
+    margin: 6px 6px 0 0;
+}
+
+.status-gerais{
+    margin-top: 12px;
+    position: relative;
+    display: flex !important;
+    flex-direction: row;
+    font-size: 0.5rem;
+    flex: 1;
+    gap: 20px;
+}
+
+.status-esquerda, .status-direita{
+    width: 50%;
+}
+
+.sat{
+
+    position: relative;
+    display: flex !important;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: space-between;
+    align-content: space-between;
+}

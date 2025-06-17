@@ -1,0 +1,22 @@
+.waveform {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 60px;
+    background: #111;
+    padding: 10px;
+  }
+  
+  .bar {
+    width: 4px;
+    background: #4CAF50;
+    border-radius: 2px;
+    height: var(--height); /* Controlada pelo HTML */
+    animation: pulse 1s infinite ease-in-out alternate;
+  }
+  
+  /* Efeito de pulsação opcional */
+  @keyframes pulse {
+    from { opacity: 0.6; }
+    to { opacity: 1; }
+  }

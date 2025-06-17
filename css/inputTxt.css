@@ -1,0 +1,15 @@
+.btn-input-terminal{
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    background-color: #09011a;
+    height: 2.1rem;
+}
+
+.btn-input-terminal-txt{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro';
+    padding-left: 8px;
+}

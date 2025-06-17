@@ -1,0 +1,16 @@
+.telaInicial-layoutDivs {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 318.5px;
+    }
+
+.telaInicial-texto{ 
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Kdam Thmor Pro';
+    align-items: center;
+}

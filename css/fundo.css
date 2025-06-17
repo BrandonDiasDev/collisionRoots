@@ -1,0 +1,14 @@
+.fundoPadrao {
+    /*z-index: 1;*/
+    margin: 0;
+    width: 100%;
+    position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, #1a0043, #130031);
+    height: 568px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Kdam Thmor Pro';
+    color: #fff;
+    }
